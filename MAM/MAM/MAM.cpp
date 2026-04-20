@@ -31,7 +31,7 @@ int main()
 
             sf::Vector2i mousePos = sf::Mouse::getPosition(window);
            
-            player.render(window);
+            //player.render(window);
 
             if (col.ContainsPoint(sf::Vector2f(static_cast<float>(mousePos.x), static_cast<float>(mousePos.y))))
             {

@@ -1,5 +1,6 @@
 #include "PlayerEntity.h"
 #include "SFML/Graphics.hpp"
+#include <iostream>
 
 PlayerEntity::PlayerEntity()
 {
@@ -16,6 +17,31 @@ void PlayerEntity::overlap(Collision* thisCollision, entity* otherEntity, Collis
 
 	//}
 
+}
+
+sf::Vector2f PlayerEntity::update()
+{
+	if (direction == 'u')
+	{
+
+	}
+	else if (direction == 'D')
+	{
+
+	}
+	else if (direction = 'L')
+	{
+
+	}
+	else if (direction = 'R')
+	{
+
+	}
+	else
+	{
+		std::cout << "Invalid Direction" << std::endl;
+	}
+	return sf::Vector2f();
 }
 
 void PlayerEntity::render(sf::RenderWindow& window)
