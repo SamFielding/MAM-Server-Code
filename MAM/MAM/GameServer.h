@@ -5,6 +5,8 @@
 #include <mutex>
 #include <thread>
 #include <vector>
+#include "GameMessage.h"
+#include "TextMessage.h"
 
 // TODO: move `GameServer` into its own files (h/cpp).
 // Note: This is compiled with SFML 2.6.2 in mind.
@@ -51,6 +53,8 @@ public:
                     << client->getRemoteAddress()
                     << std::endl;
                 std::thread(&GameServer::handle_client, this, client).detach();
+                TextMessage message("","Hello");
+                broadcast_message(&message, client);
             }
         }
         // No need to call close of the listener.
@@ -121,10 +125,7 @@ private:
                 break;
             } else {
                 // Actually, there is no need to print the message if the message is not a string
-                std::string message(payload);
-                std::cout << "Received message: " << message << std::endl;
-                broadcast_message(message, client);
-            }
+                GameMessage::Deserialize(payload);}
         }
 
         // Everything that follows only makes sense if we have a graceful way to exiting the loop.
@@ -138,7 +139,7 @@ private:
     }
 
     // Sends `message` from `sender` to all the other connected clients
-    void broadcast_message(const std::string& message, sf::TcpSocket* sender)
+    void broadcast_message(GameMessage* message, sf::TcpSocket* sender)
     {
         // You might want to validate the message before you send it.
         // A few reasons for that:
@@ -154,7 +155,7 @@ private:
             if (client != sender)
             {
                 // SENDING
-                sf::Socket::Status status = client->send(message.c_str(), message.size() + 1) ;
+                sf::Socket::Status status = client->send(message->Serialize(), 1024) ;
                 if (status != sf::Socket::Status::Done)
                 {
                     std::cerr << "Error sending message to client" << std::endl;

@@ -1,6 +1,6 @@
 #pragma once
 #include "SFML/Graphics.hpp"
-#include "delegate.h"
+#include "Delegate.h"
 
 class entity;
 class Collision
