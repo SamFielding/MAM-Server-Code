@@ -1,11 +1,2 @@
-﻿  ByteArray.cpp
-  Collision.cpp
-  CollisionManager.cpp
-  entity.cpp
-  MAM.cpp
-  PlayerEntity.cpp
-  Generating Code...
-C:\MAM-Server-Code\MAM\MAM\PlayerEntity.cpp(47,20): error C2039: 'render': is not a member of 'PlayerEntity'
-      C:\MAM-Server-Code\MAM\MAM\PlayerEntity.h(3,7):
-      see declaration of 'PlayerEntity'
-  
+﻿  MAM.cpp
+  MAM.vcxproj -> C:\MAM-Server-Code\MAM\x64\Debug\MAM.exe

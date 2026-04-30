@@ -9,10 +9,10 @@
 
 int main()
 {
-//    GameServer server(4300, 4301);
-//    std::thread tcp_thread(&GameServer::tcp_start, &server);
-//    // std::thread udp_thread(&GameServer::udp_start, &server);
-//    std::this_thread::sleep_for(std::chrono::milliseconds(50)); // Not strictly necessary, just helps with the output
+    GameServer server(4300, 4301);
+    std::thread tcp_thread(&GameServer::tcp_start, &server);
+    std::thread udp_thread(&GameServer::udp_start, &server);
+    std::this_thread::sleep_for(std::chrono::milliseconds(50)); // Not strictly necessary, just helps with the output
     
 
          sf::RenderWindow window(sf::VideoMode(1000, 1000), "SFML works!");
@@ -33,10 +33,10 @@ int main()
            
         //     //player.render(window);
 
-             if (col.ContainsPoint(sf::Vector2f(static_cast<float>(mousePos.x), static_cast<float>(mousePos.y))))
+            /* if (col.ContainsPoint(sf::Vector2f(static_cast<float>(mousePos.x), static_cast<float>(mousePos.y))))
              {
                  std::cout << "Point is within collision" << std::endl;
-             }
+             }*/
 
              sf::Event event;
              while (window.pollEvent(event))
@@ -51,8 +51,8 @@ int main()
             window.display();
         }
 
-       // tcp_thread.join();
-        // udp_thread.join();
+       tcp_thread.join();
+       udp_thread.join();
 
         return 0;
     
