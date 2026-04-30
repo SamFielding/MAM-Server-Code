@@ -7,6 +7,7 @@
 #include <vector>
 #include "GameMessage.h"
 #include "TextMessage.h"
+#include "ByteArray.h"
 
 // TODO: move `GameServer` into its own files (h/cpp).
 // Note: This is compiled with SFML 2.6.2 in mind.
@@ -53,8 +54,10 @@ public:
                     << client->getRemoteAddress()
                     << std::endl;
                 std::thread(&GameServer::handle_client, this, client).detach();
-                TextMessage message("","Hello");
-                broadcast_message(&message, client);
+                //TextMessage message("Sam","Hello");
+                ByteArray ba;
+                //const std::vector<uint8_t>& message = ba.buildConnectPacket("Sam", "Hello");
+                broadcast_message(ba.buildConnectPacket("Sam", "Hello"), client);
             }
         }
         // No need to call close of the listener.
@@ -139,7 +142,7 @@ private:
     }
 
     // Sends `message` from `sender` to all the other connected clients
-    void broadcast_message(GameMessage* message, sf::TcpSocket* sender)
+    void broadcast_message(const std::vector<uint8_t>& message, sf::TcpSocket* sender)
     {
         // You might want to validate the message before you send it.
         // A few reasons for that:
@@ -152,15 +155,19 @@ private:
         std::lock_guard<std::mutex> lock(m_clients_mutex);
         for (auto& client : m_clients)
         {
-            if (client != sender)
-            {
+            // if (client != sender)
+            // {
                 // SENDING
-                sf::Socket::Status status = client->send(message->Serialize(), 1024) ;
+               // const char* serializedMessage = message->Serialize();
+                std::cerr << "Sent Message: [" << message.data() << std::endl << "]";
+
+                sf::Socket::Status status = client->send(message.data(), message.size());
+                
                 if (status != sf::Socket::Status::Done)
                 {
                     std::cerr << "Error sending message to client" << std::endl;
                 }
-            }
+            // }
         }
     }
 };

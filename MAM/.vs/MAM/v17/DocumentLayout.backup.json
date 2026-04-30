@@ -3,36 +3,15 @@
   "WorkspaceRootPath": "C:\\MAM-Server-Code\\MAM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-Server-Code\\MAM\\MAM\\PlayerEntity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|solutionrelative:MAM\\PlayerEntity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-Server-Code\\MAM\\MAM\\PlayerEntity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|solutionrelative:MAM\\PlayerEntity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-Server-Code\\MAM\\MAM\\CollisionManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|solutionrelative:MAM\\CollisionManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-Server-Code\\MAM\\MAM\\MAM.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|solutionrelative:MAM\\MAM.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-Server-Code\\MAM\\MAM\\Collision.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|solutionrelative:MAM\\Collision.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-Server-Code\\MAM\\MAM\\entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|solutionrelative:MAM\\entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-Server-Code\\MAM\\MAM\\Collision.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|solutionrelative:MAM\\Collision.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-Server-Code\\MAM\\MAM\\GameServer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|solutionrelative:MAM\\GameServer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-Server-Code\\MAM\\MAM\\Delegate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -41,6 +20,42 @@
     {
       "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-Server-Code\\MAM\\MAM\\CollisionManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|solutionrelative:MAM\\CollisionManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-Server-Code\\MAM\\MAM\\entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|solutionrelative:MAM\\entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-Server-Code\\MAM\\MAM\\PlayerEntity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|solutionrelative:MAM\\PlayerEntity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-Server-Code\\MAM\\MAM\\PlayerEntity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|solutionrelative:MAM\\PlayerEntity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-SERVER-CODE\\MAM\\MAM\\TEXTMESSAGE.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|solutionrelative:MAM\\TEXTMESSAGE.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-Server-Code\\MAM\\MAM\\CollisionManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|solutionrelative:MAM\\CollisionManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-Server-Code\\MAM\\MAM\\ByteArray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|solutionrelative:MAM\\ByteArray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-Server-Code\\MAM\\MAM\\GameServer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|solutionrelative:MAM\\GameServer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-SERVER-CODE\\MAM\\MAM\\GAMEMESSAGE.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|solutionrelative:MAM\\GAMEMESSAGE.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|C:\\MAM-Server-Code\\MAM\\MAM\\Collision.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{50A14EA7-5DD6-4850-8C63-DB671AA86044}|MAM\\MAM.vcxproj|solutionrelative:MAM\\Collision.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,11 +65,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "vector",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\vector",
+              "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\vector",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\vector",
+              "RelativeToolTip": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\vector",
+              "ViewState": "AgIAACkDAAAAAAAAAAAiwDwDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-30T01:41:01.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GameServer.h",
+              "DocumentMoniker": "C:\\MAM-Server-Code\\MAM\\MAM\\GameServer.h",
+              "RelativeDocumentMoniker": "MAM\\GameServer.h",
+              "ToolTip": "C:\\MAM-Server-Code\\MAM\\MAM\\GameServer.h",
+              "RelativeToolTip": "MAM\\GameServer.h",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAEoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-14T20:39:56.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TextMessage.h",
+              "DocumentMoniker": "C:\\MAM-Server-Code\\MAM\\MAM\\TextMessage.h",
+              "RelativeDocumentMoniker": "MAM\\TextMessage.h",
+              "ToolTip": "C:\\MAM-Server-Code\\MAM\\MAM\\TextMessage.h",
+              "RelativeToolTip": "MAM\\TextMessage.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-30T00:04:15.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "CollisionManager.cpp",
               "DocumentMoniker": "C:\\MAM-Server-Code\\MAM\\MAM\\CollisionManager.cpp",
               "RelativeDocumentMoniker": "MAM\\CollisionManager.cpp",
@@ -67,26 +121,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "PlayerEntity.h",
               "DocumentMoniker": "C:\\MAM-Server-Code\\MAM\\MAM\\PlayerEntity.h",
               "RelativeDocumentMoniker": "MAM\\PlayerEntity.h",
               "ToolTip": "C:\\MAM-Server-Code\\MAM\\MAM\\PlayerEntity.h",
               "RelativeToolTip": "MAM\\PlayerEntity.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-04-17T17:01:19.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "PlayerEntity.cpp",
               "DocumentMoniker": "C:\\MAM-Server-Code\\MAM\\MAM\\PlayerEntity.cpp",
               "RelativeDocumentMoniker": "MAM\\PlayerEntity.cpp",
               "ToolTip": "C:\\MAM-Server-Code\\MAM\\MAM\\PlayerEntity.cpp",
               "RelativeToolTip": "MAM\\PlayerEntity.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAASwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-17T17:01:19.561Z",
               "EditorCaption": ""
@@ -101,11 +155,12 @@
               "RelativeToolTip": "MAM\\entity.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-14T22:32:59.658Z"
+              "WhenOpened": "2026-04-14T22:32:59.658Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "CollisionManager.h",
               "DocumentMoniker": "C:\\MAM-Server-Code\\MAM\\MAM\\CollisionManager.h",
               "RelativeDocumentMoniker": "MAM\\CollisionManager.h",
@@ -113,11 +168,12 @@
               "RelativeToolTip": "MAM\\CollisionManager.h",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-14T22:26:47.158Z"
+              "WhenOpened": "2026-04-14T22:26:47.158Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Delegate.h",
               "DocumentMoniker": "C:\\MAM-Server-Code\\MAM\\MAM\\Delegate.h",
               "RelativeDocumentMoniker": "MAM\\Delegate.h",
@@ -125,23 +181,12 @@
               "RelativeToolTip": "MAM\\Delegate.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-14T22:04:27.07Z"
+              "WhenOpened": "2026-04-14T22:04:27.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GameServer.h",
-              "DocumentMoniker": "C:\\MAM-Server-Code\\MAM\\MAM\\GameServer.h",
-              "RelativeDocumentMoniker": "MAM\\GameServer.h",
-              "ToolTip": "C:\\MAM-Server-Code\\MAM\\MAM\\GameServer.h",
-              "RelativeToolTip": "MAM\\GameServer.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-14T20:39:56.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Collision.cpp",
               "DocumentMoniker": "C:\\MAM-Server-Code\\MAM\\MAM\\Collision.cpp",
               "RelativeDocumentMoniker": "MAM\\Collision.cpp",
@@ -149,11 +194,38 @@
               "RelativeToolTip": "MAM\\Collision.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-14T20:18:15.885Z"
+              "WhenOpened": "2026-04-14T20:18:15.885Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "MAM.cpp",
+              "DocumentMoniker": "C:\\MAM-Server-Code\\MAM\\MAM\\MAM.cpp",
+              "RelativeDocumentMoniker": "MAM\\MAM.cpp",
+              "ToolTip": "C:\\MAM-Server-Code\\MAM\\MAM\\MAM.cpp",
+              "RelativeToolTip": "MAM\\MAM.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-12T23:00:39.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ByteArray.h",
+              "DocumentMoniker": "C:\\MAM-Server-Code\\MAM\\MAM\\ByteArray.h",
+              "RelativeDocumentMoniker": "MAM\\ByteArray.h",
+              "ToolTip": "C:\\MAM-Server-Code\\MAM\\MAM\\ByteArray.h",
+              "RelativeToolTip": "MAM\\ByteArray.h",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAAH8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-29T23:31:18.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Collision.h",
               "DocumentMoniker": "C:\\MAM-Server-Code\\MAM\\MAM\\Collision.h",
               "RelativeDocumentMoniker": "MAM\\Collision.h",
@@ -165,15 +237,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MAM.cpp",
-              "DocumentMoniker": "C:\\MAM-Server-Code\\MAM\\MAM\\MAM.cpp",
-              "RelativeDocumentMoniker": "MAM\\MAM.cpp",
-              "ToolTip": "C:\\MAM-Server-Code\\MAM\\MAM\\MAM.cpp",
-              "RelativeToolTip": "MAM\\MAM.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-12T23:00:39.891Z",
+              "DocumentIndex": 12,
+              "Title": "GameMessage.h",
+              "DocumentMoniker": "C:\\MAM-Server-Code\\MAM\\MAM\\GameMessage.h",
+              "RelativeDocumentMoniker": "MAM\\GameMessage.h",
+              "ToolTip": "C:\\MAM-Server-Code\\MAM\\MAM\\GameMessage.h",
+              "RelativeToolTip": "MAM\\GameMessage.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-29T23:44:42.891Z",
               "EditorCaption": ""
             }
           ]

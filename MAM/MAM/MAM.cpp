@@ -9,18 +9,18 @@
 
 int main()
 {
-    GameServer server(4300, 4301);
-    std::thread tcp_thread(&GameServer::tcp_start, &server);
-    // std::thread udp_thread(&GameServer::udp_start, &server);
-    std::this_thread::sleep_for(std::chrono::milliseconds(50)); // Not strictly necessary, just helps with the output
+//    GameServer server(4300, 4301);
+//    std::thread tcp_thread(&GameServer::tcp_start, &server);
+//    // std::thread udp_thread(&GameServer::udp_start, &server);
+//    std::this_thread::sleep_for(std::chrono::milliseconds(50)); // Not strictly necessary, just helps with the output
     
 
-        // sf::RenderWindow window(sf::VideoMode(1000, 1000), "SFML works!");
-        // sf::CircleShape shape(100.f);
-        // shape.setFillColor(sf::Color::Green);
-        // Collision col;
-        // col.SetPos(sf::Vector2f(0.f,0.f));
-        // col.SetSize(sf::Vector2f(200.f, 200.f));
+         sf::RenderWindow window(sf::VideoMode(1000, 1000), "SFML works!");
+         sf::CircleShape shape(100.f);
+         shape.setFillColor(sf::Color::Green);
+         Collision col;
+         col.SetPos(sf::Vector2f(0.f,0.f));
+         col.SetSize(sf::Vector2f(200.f, 200.f));
         // PlayerEntity player;
         // sf::RectangleShape playerSprite;
         // playerSprite.setPosition(200.f, 200.f);
@@ -29,29 +29,29 @@ int main()
         while (true)
         {
 
-        //     sf::Vector2i mousePos = sf::Mouse::getPosition(window);
+             sf::Vector2i mousePos = sf::Mouse::getPosition(window);
            
         //     //player.render(window);
 
-        //     if (col.ContainsPoint(sf::Vector2f(static_cast<float>(mousePos.x), static_cast<float>(mousePos.y))))
-        //     {
-        //         std::cout << "Point is within collision" << std::endl;
-        //     }
+             if (col.ContainsPoint(sf::Vector2f(static_cast<float>(mousePos.x), static_cast<float>(mousePos.y))))
+             {
+                 std::cout << "Point is within collision" << std::endl;
+             }
 
-        //     sf::Event event;
-        //     while (window.pollEvent(event))
-        //     {
-        //         if (event.type == sf::Event::Closed)
-        //             window.close();
-        //     }
+             sf::Event event;
+             while (window.pollEvent(event))
+             {
+                 if (event.type == sf::Event::Closed)
+                     window.close();
+             }
 
-        //     window.clear();
-        //     // window.draw(shape);
-        //    // player.render(window);
-        //     window.display();
+             window.clear();
+             // window.draw(shape);
+            // player.render(window);
+            window.display();
         }
 
-        tcp_thread.join();
+       // tcp_thread.join();
         // udp_thread.join();
 
         return 0;

@@ -44,14 +44,14 @@ sf::Vector2f PlayerEntity::update()
 	return sf::Vector2f();
 }
 
-void PlayerEntity::render(sf::RenderWindow& window)
-{
-	sf::RectangleShape playerSprite;
-	playerSprite.setPosition(200.f, 200.f);
-
-	playerSprite.setFillColor(sf::Color(255, 0, 0, 0));
-
-	window.draw(playerSprite);
-
-
-}
+//void PlayerEntity::render(sf::RenderWindow& window)
+//{
+//	sf::RectangleShape playerSprite;
+//	playerSprite.setPosition(200.f, 200.f);
+//
+//	playerSprite.setFillColor(sf::Color(255, 0, 0, 0));
+//
+//	window.draw(playerSprite);
+//
+//
+//}

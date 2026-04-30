@@ -1,5 +1,13 @@
 #pragma once
 #include <cstdint>
+        
+enum class GameMessageType : uint8_t
+{
+    movementTap = 0,
+    text = 1,
+    render = 2,
+
+};
 
 class GameMessage
 {
